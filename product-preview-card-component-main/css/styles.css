@@ -1,3 +1,50 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* Text */
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    color: hsl(228, 12%, 48%);
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);    
+}
+.price{
+    display: inline-block;
+    margin-right: 2rem;
+}
+h1.price{
+   color: hsl(158, 36%, 37%);
+}
+p.price{
+    text-decoration: line-through;
+    position: relative;
+    bottom: 0.25rem;
+}
+
+/* Product Preview */
+.product-preview{
+    padding: 7% 3%;
+}
+
+.product-img{
+    border-radius: 3% 3% 0 0;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+}
+
+/* Footer */
+
 .attribution { 
     font-size: 11px; text-align: center;
 }
