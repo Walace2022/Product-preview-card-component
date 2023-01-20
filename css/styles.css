@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* Text */
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    color: hsl(228, 12%, 48%);
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);    
+}
+.price{
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+h1.price{
+   color: hsl(158, 36%, 37%);
+}
+p.price{
+    text-decoration: line-through;
+    position: relative;
+    bottom: 0.25rem;
+}
+
+/* Product Preview */
+.product-preview{
+    padding: 7% 3%;
+}
+
+.product-img{
+    border-radius: 3% 3% 0 0;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+}
+.btn:hover{
+    background-color: hsl(158, 35%, 22%);
+}
+.desktop{
+    display: none;
+}
+/* Footer */
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+/* Desktop */
+
+@media (min-width:960px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    /* Text */
+    h1{
+        margin: 0.7rem 0;
+    }
+    h2{
+        margin: 0.7rem 0;
+    }
+    .product-text{
+        padding: 1.5rem 1.5rem 0 0.75rem;
+    }
+    /* Product Preview */
+    .product-preview{
+        padding: 20% 28%;
+        
+    }
+    .card:hover{
+        box-shadow: 0px 1px 3px #666666;
+    }
+}
