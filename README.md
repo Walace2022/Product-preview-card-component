@@ -14,6 +14,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
+This was my first practice with HTML and CSS. First i tried to use BootStrap to help me but without the complete understandig of the tool i wasn`t able to made a good replica with it. So I decided to recreate with pure CSS to create a better understanding of CSS and to practice what i`ve learned. 
+
 ### The challenge
 
 Users should be able to:
@@ -35,8 +37,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
-- [BootStrap](https://getbootstrap.com/)
+- Desktop-first workflow
 
 
 ## Author
